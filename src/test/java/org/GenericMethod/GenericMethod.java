@@ -32,12 +32,19 @@ public class GenericMethod {
 
 	private WebDriver driver;
 	
+	String name ="nikhil";
+	
 	public void katrinamthod()
 	{
 		
 		System.out.println("this is the chnges by katrina ");
+		
+		// this is add by katrina 
+		
+		System.out.println(name);
 	}
 	
+
 	public void salmanMathod()
 	{
 		
@@ -45,6 +52,9 @@ public class GenericMethod {
 		//salman add this code
 		
 	}
+
+	
+
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {

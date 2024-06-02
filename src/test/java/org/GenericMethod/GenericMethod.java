@@ -31,6 +31,13 @@ public class GenericMethod {
 	BaseUtility bs = new BaseUtility();
 
 	private WebDriver driver;
+	
+	public void salmanMrthod()
+	{
+
+		System.out.println("this is method specific reason");
+		
+	}
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {

@@ -35,7 +35,9 @@ public class GenericMethod {
 	public void salmanMrthod()
 	{
 
-		System.out.println("this is method specific reason");
+		System.out.println("this is method specific");
+        System.out.println("this changes add by katrina");		
+		
 		
 	}
 

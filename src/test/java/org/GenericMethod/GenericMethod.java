@@ -32,30 +32,19 @@ public class GenericMethod {
 
 	private WebDriver driver;
 	
-	String name ="nikhil";
 	
-	public void katrinamthod()
-	{
-		
-		System.out.println("this is the chnges by katrina ");
-		
-		// this is add by katrina 
-		
-		System.out.println(name);
-	}
-	
-
-	public void salmanMathod()
-	{
-		
-		System.out.println("this is katrina code");
-		//salman add this code
-		
+	public boolean checkVisiblityflag1(List<WebElement> elements) {
+		for (WebElement element : elements) {
+			if (element.isDisplayed())
+				return true;
+			System.out.println("return true but same file name ");
+		}
+		return false;
+		//this is update code by katrina 
 	}
 
 	
-
-
+	
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {
 			if (element.isDisplayed())
@@ -259,15 +248,17 @@ public class GenericMethod {
 	// this is implemented for Textboxfiled = lebel , data
 	public void inputField(WebDriver driver, String label, String data) {
 
-		List<WebElement> eles = driver.findElements(
-				By.xpath("//label[text()='" + label.trim() + "'][1]/following::input[1]"));
-		this.CheckVisibleElements(eles);;
+		List<WebElement> eles = driver
+				.findElements(By.xpath("//label[text()='" + label.trim() + "'][1]/following::input[1]"));
+		this.CheckVisibleElements(eles);
+		;
 
 		for (WebElement ele : eles) {
 
 			try {
 
-				ele.sendKeys(Keys.DELETE);;
+				ele.sendKeys(Keys.DELETE);
+				;
 				ele.sendKeys(data);
 
 			} catch (Exception e) {
@@ -322,8 +313,7 @@ public class GenericMethod {
 		}
 
 	}
-	
-	
+
 	public void WorkingMinutFromAction(WebDriver driver, String uniqueTxt, String AM) {
 		try {
 			List<WebElement> eles = null;
@@ -357,7 +347,7 @@ public class GenericMethod {
 
 			bs.waitForVisibilityOfElement(driver, 5, ele);
 
-			WebElement el = driver.findElement(By.xpath("//input[@value='"+AM+"']"));
+			WebElement el = driver.findElement(By.xpath("//input[@value='" + AM + "']"));
 
 			String type = el.getAttribute("value");
 
@@ -374,11 +364,6 @@ public class GenericMethod {
 		}
 
 	}
-
-	
-	
-	
-	
 
 	public void WorkingHoursFromAction(WebDriver driver, String uniqueTxt, String AM) {
 		try {

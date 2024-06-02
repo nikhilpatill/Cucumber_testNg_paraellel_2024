@@ -38,14 +38,13 @@ public class GenericMethod {
 	{
 		
 		System.out.println("this is the chnges by katrina ");
+		
+		// this is add by katrina 
+		
+		System.out.println(name);
 	}
 	
-	public void salmanMathod()
-	{
-		
-		System.err.println("this is salman chnages");
-		
-	}
+	
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {

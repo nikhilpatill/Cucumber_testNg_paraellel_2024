@@ -41,7 +41,8 @@ public class GenericMethod {
 		System.out.println("please salman here don't change");
 		
 		// add line by salman 
-		String name = "salma";
+		String name = "katrina";
+		string name ="katrina friend"
 		
 		System.out.println(name);
 		

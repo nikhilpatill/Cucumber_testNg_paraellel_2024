@@ -37,7 +37,7 @@ public class GenericMethod {
 
 		System.out.println("this is method specific");
         System.out.println("this changes add by katrina");		
-		
+		System.out.println("this is chenges come by karrina");
 		
 	}
 

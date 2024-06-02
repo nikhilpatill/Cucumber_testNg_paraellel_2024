@@ -17,20 +17,16 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 
 public class ExcelReader {
-	
-	public void katrinafunction()
-	{
-		
-//		System.out.println("this is method perticular perpose");
-//		System.out.println("salman please don't remove this cod");
-//		//salman add this line 
-		
+
+	public void katrinafunction() {
+
+		System.out.println("this is method perticular perpose");
+		// System.out.println("salman please don't remove this cod");
+		System.out.println("this code updated by katrina");
 		System.out.println("please don't add code here ");
 //		
-		
+
 	}
-	
-	
 
 	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {

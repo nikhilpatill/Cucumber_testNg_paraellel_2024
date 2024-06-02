@@ -21,11 +21,6 @@ public class ExcelReader {
 	public void katrinafunction()
 	{
 		
-		System.out.println("this is method perticular perpose");
-	//	System.out.println("salman please don't remove this cod");
-		System.out.println("this code updated by katrina");
-		
-		
 	}
 	
 	

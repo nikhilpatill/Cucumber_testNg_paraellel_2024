@@ -37,10 +37,10 @@ public class GenericMethod {
 		for (WebElement element : elements) {
 			if (element.isDisplayed())
 				return true;
-			System.out.println("return true but same file name ");
+			System.out.println("return true but katrina add  file name ");
 		}
 		return false;
-		//this is update code by katrina 
+		
 	}
 
 	

@@ -48,7 +48,7 @@ public class GenericMethod {
 	public void salmanMathod()
 	{
 		
-		System.err.println("this is salman chnages");
+		System.out.println("this is katrina code");
 		//salman add this code
 		
 	}

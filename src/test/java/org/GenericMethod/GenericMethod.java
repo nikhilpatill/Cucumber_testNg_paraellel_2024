@@ -32,21 +32,18 @@ public class GenericMethod {
 
 	private WebDriver driver;
 	
-	public void salmanMrthod()
+	public void katrinamthod()
 	{
-
-		System.out.println("this is method specific");
-        System.out.println("this changes add by katrina");		
-		System.out.println("this is chenges come by karrina");
-		System.out.println("please salman here don't change");
 		
-		// add line by salman 
-		String name = "salma";
-		
-		System.out.println(name);
-		
+		System.out.println("this is the chnges by katrina ");
 	}
 	
+	public void salmanMathod()
+	{
+		
+		System.err.println("this is salman chnages");
+		
+	}
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {

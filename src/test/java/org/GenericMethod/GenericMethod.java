@@ -38,8 +38,15 @@ public class GenericMethod {
 		System.out.println("this is method specific");
         System.out.println("this changes add by katrina");		
 		System.out.println("this is chenges come by karrina");
+		System.out.println("please salman here don't change");
+		
+		// add line by salman 
+		String name = "salma";
+		
+		System.out.println(name);
 		
 	}
+	
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {

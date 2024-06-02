@@ -31,20 +31,21 @@ public class GenericMethod {
 	BaseUtility bs = new BaseUtility();
 
 	private WebDriver driver;
-	
-	
-	public boolean checkVisiblityflag1(List<WebElement> elements) {
+
+	public boolean checkVisiblityflag2(List<WebElement> elements) {
 		for (WebElement element : elements) {
 			if (element.isDisplayed())
 				return true;
 			System.out.println("return true but katrina add  file name ");
 		}
 		return false;
-		
-	}
+
+		}
 
 	
-	
+
+
+
 	public boolean checkVisiblityflag(List<WebElement> elements) {
 		for (WebElement element : elements) {
 			if (element.isDisplayed())

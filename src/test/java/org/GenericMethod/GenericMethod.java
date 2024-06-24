@@ -46,6 +46,21 @@ public class GenericMethod {
 	//this salman code
 	
 
+	String name ="nikhil";
+	
+	public void katrinamthod()
+	{
+		
+		System.out.println("this is the chnges by katrina ");
+		
+		// this is add by katrina 
+		
+		System.out.println(name);
+		
+		System.out.println("this is katrina code");
+	}
+	
+	
 
 
 	public boolean checkVisiblityflag(List<WebElement> elements) {

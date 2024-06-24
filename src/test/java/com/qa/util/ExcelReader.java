@@ -36,12 +36,13 @@ public class ExcelReader {
 		return readSheet(sheet);
 	}
 	
-	public List<Map<String, String>> getData1(String excelFilePath, String sheetName)
+	public void getData1(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {
-		  
+		  System.out.println("salman");
 		Sheet sheet = getSheetByName(excelFilePath, sheetName);
-		System.out.println("this code add by sal man ");
-		return readSheet(sheet);
+		System.out.println("this code add by please revote code this sone ");
+		//return readSheet(sheet);
+		System.out.println("this cpde add katrina 0");
 	}
 	
 	

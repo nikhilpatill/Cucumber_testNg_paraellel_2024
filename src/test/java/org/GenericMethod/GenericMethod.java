@@ -43,6 +43,7 @@ public class GenericMethod {
 		}
 
 	
+	//this salman code
 
 	String name ="nikhil";
 	

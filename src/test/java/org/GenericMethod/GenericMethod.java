@@ -42,6 +42,8 @@ public class GenericMethod {
 		// this is add by katrina 
 		
 		System.out.println(name);
+		
+		System.out.println("this is katrina code");
 	}
 	
 	

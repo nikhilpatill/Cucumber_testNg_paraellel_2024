@@ -38,8 +38,9 @@ public class ExcelReader {
 	
 	public List<Map<String, String>> getData1(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {
-		   System.out.println("this code add by sal man ");
+		  
 		Sheet sheet = getSheetByName(excelFilePath, sheetName);
+		System.out.println("this code add by sal man ");
 		return readSheet(sheet);
 	}
 	

@@ -18,7 +18,6 @@ import org.apache.poi.ss.util.NumberToTextConverter;
 
 public class ExcelReader {
 
-
 	public void katrinafunction() {
 
 		System.out.println("this is method perticular perpose");
@@ -27,7 +26,6 @@ public class ExcelReader {
 		System.out.println("please don't add code here ");
 //		
 
-
 	}
 
 	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
@@ -35,18 +33,21 @@ public class ExcelReader {
 		Sheet sheet = getSheetByName(excelFilePath, sheetName);
 		return readSheet(sheet);
 	}
-	
-	public void getData1(String excelFilePath, String sheetName)
-			throws InvalidFormatException, IOException {
-		  System.out.println("salman");
+
+	public void getData1(String excelFilePath, String sheetName) throws InvalidFormatException, IOException {
+		System.out.println("salman");
 		Sheet sheet = getSheetByName(excelFilePath, sheetName);
 		System.out.println("this code add by please revote code this sone ");
-		//return readSheet(sheet);
+		// return readSheet(sheet);
 		System.out.println("this cpde add katrina 0");
 	}
-	
-	
-	
+
+	// salma dd this code 
+	public void getData2(String excelFilePath, String sheetName)
+
+	{
+         System.out.println("salman add this code");
+	}
 
 	public List<Map<String, String>> getData(String excelFilePath, int sheetNumber)
 			throws InvalidFormatException, IOException {
